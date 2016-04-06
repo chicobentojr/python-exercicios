@@ -22,7 +22,8 @@ def ler_arquivo(nome):
         return 'Aconteceu um erro na operação!'
 
 
-print('Digite o nome do arquivo para ser lido')
-arquivo = input()
+if __name__ == '__main__':
+    print('Digite o nome do arquivo para ser lido')
+    arquivo = input()
 
-print(ler_arquivo(arquivo))
+    print(ler_arquivo(arquivo))
